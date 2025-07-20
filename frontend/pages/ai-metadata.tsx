@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { aiService } from '../lib/api';
 import { useDebounce } from '../hooks/useUtils';
-import { Loader2, Sparkles, Copy, Download } from 'lucide-react';
+import { Loader2, Sparkles, Copy, Download, Wand2, Settings } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { Button, Modal, ProgressBar, SearchBar } from '../components/ui';
 
 interface MetadataResult {
   title: string;

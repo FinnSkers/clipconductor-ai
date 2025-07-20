@@ -22,6 +22,7 @@ import {
 import { useRouter } from 'next/router';
 import { toast } from 'react-hot-toast';
 import axios from 'axios';
+import { Button, ProgressBar } from '../components/ui';
 
 interface SetupStep {
   id: string;

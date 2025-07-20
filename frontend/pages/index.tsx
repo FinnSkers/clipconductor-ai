@@ -12,10 +12,14 @@ import {
   Play,
   FileVideo,
   Zap,
-  BarChart3
+  BarChart3,
+  RefreshCw,
+  AlertCircle,
+  CheckCircle
 } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { api } from '../lib/api';
+import { Button, ProgressBar } from '../components/ui';
 
 interface DashboardStats {
   total_clips: number;
